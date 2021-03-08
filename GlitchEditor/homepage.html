@@ -33,11 +33,15 @@
 
         <div class="topnav-right dropdown">
             <button onclick="myFunction()" class="dropbtn">Login</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#">Enter your Username</a>
-                <a href="#">Enter your Password</a>
-                <a href="#">Sign In Through Here</a>
-                <a href="#">Forgot Username and Password</a>
+            <div class="login-container">
+                <div id="myDropdown" class="dropdown-content">
+                    <form >
+                        <input id ="myUsername" type="text" placeholder="Username" name="username">
+                        <input id ="myPassword" type="text" placeholder="Password" name="psw">
+                        <button onclick="myUser()" type="submit">Login</button>
+                    </form>
+                    <a href="#">Forgot Username and Password</a>
+                </div>
             </div>
         </div>
 
@@ -51,7 +55,7 @@
 </div>
 <div class="container">
     <div class="homepage-button-row">
-        <button class="homepage-button">Get Help</button>
+        <a href="https://www.google.com/"><button class="homepage-button">Get Help</button></a>
         <button class="homepage-button"> Create Bug</button>
         <button class="homepage-button">Search</button>
     </div>
