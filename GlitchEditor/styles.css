@@ -87,3 +87,13 @@
 .container{
     padding-bottom: 50px;
 }
+
+.bug-input {
+    background-color: green;
+    color: white;
+}
+
+.bug-btn {
+    background-color: red;
+    color: white;
+}
