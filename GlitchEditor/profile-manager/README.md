@@ -7,6 +7,8 @@ npm installl sqlite3
 
 npm install bluebird
 
+npm install express
+
 node index.js
 
 
