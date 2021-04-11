@@ -13,3 +13,7 @@ function myUser() {
         alert("Please login to GlitchEditor or face the consequences.")
     }
 }
+
+function resetPassword() {
+	alert("An Email will be sent to reset the password");
+}
