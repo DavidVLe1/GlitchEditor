@@ -1,4 +1,6 @@
-# Run the Unit Tests by executing these commands:
+# Run the Unit Tests:
+
+- install npm
 
 npm i jest
 
