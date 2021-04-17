@@ -8,11 +8,8 @@ function myUser() {
     var password = document.getElementById('myPassword').value
     if (validLogin(person, password)) {
         alert("Welcome " + person + "! Good to see you today!");
-        location.replace("GlitchEditor/homepage.html");
-        // return true;
     } else {
         alert("Please login to GlitchEditor or face the consequences.");
-        // return false;
     }
 }
 
