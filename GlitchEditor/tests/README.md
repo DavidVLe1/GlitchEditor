@@ -1,7 +1,4 @@
-# Run the Unit Tests:
+# Run the Tests:
 
-- install npm
+npm install
 
-npm i jest
-
-npm test
